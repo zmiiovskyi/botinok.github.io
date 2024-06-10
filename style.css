@@ -17,19 +17,38 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.click-counter {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffa726;
+    font-weight: bold;
+}
+
 button {
     background-color: #6200ea;
     color: #ffffff;
     border: none;
-    padding: 15px 30px;
-    font-size: 16px;
-    border-radius: 5px;
+    font-size: 24px;
+    border-radius: 50%;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.1s;
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
     background-color: #3700b3;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
 button:active {
